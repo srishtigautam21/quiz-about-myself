@@ -1,8 +1,8 @@
 var readlineSync=require('readline-sync');
 var username=readlineSync.question("May I have your name: ");
-console.log('Welcome '+ username + ' to do you know me game '+'!');
+console.log('Welcome '+ username + ' To do you know me game'+'!!');
  var score=0;
-var useranswer=readlineSync.question('Is my age 22? \n');
+var useranswer=readlineSync.question('Is my age 22?(answer in yes or no) \n');
 if(useranswer==='yes')
 {
   console.log('right!');
@@ -24,7 +24,7 @@ if(usercity==='yes')
 }
 else
 {
-  console.log('wrong!');
+  console.log('wrong! '+'My hometown is patna!!');
 }
 console.log('---------------------------------------')
 var sis=readlineSync.question('Do I have a sister or brother?\n') 
@@ -34,7 +34,7 @@ if(sis==='sister')
   score+=1;
 }
 else{
-  console.log('wrong!')
+  console.log('wrong! '+'I have a sister.')
 }
 console.log('---------------------------------------')
 var usercity=readlineSync.question('Where did I do my schooling from?(ramjas or DPS) \n');
@@ -46,11 +46,11 @@ if(usercity==='ramjas')
 }
 else
 {
-  console.log('wrong!');
+  console.log('wrong! '+ 'I studied in ramjas.');
 }
 console.log('-------------------------------------------')
-var usercity=readlineSync.question('Whats my college name?(Jamia Hamdard or Jamia Milia) \n');
-if(usercity==='Jamia Hamdard')
+var usercity=readlineSync.question('Whats my college name?(jamia hamdard or jamia milia) \n');
+if(usercity==='jamia hamdard')
 {
   console.log('right!');
   score+=1;
@@ -58,7 +58,7 @@ if(usercity==='Jamia Hamdard')
 }
 else
 {
-  console.log('wrong!');
+  console.log('wrong! '+ 'My college is jamia hamdard.');
 }
 console.log('-------------------------------------------')
 
